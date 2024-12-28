@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #EDEDF0;
+}
+.goback{
+    position: fixed;
+    top: 20px;
+    left:40px ;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+.card{
+    width: 350px;
+    margin: 35px auto;
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 18px;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+h1{
+    margin: 0;
+    font-size: 30px;
+}
+p{
+    margin-top: 5;
+    font-size: 14px;
+    color: #a1a1a1;
+    margin-bottom:30px ;
+}
+.email{
+    color: black;
+}
+.input{
+    width: 85%;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #3BB489;
+}
+.btn{
+    width: 85%;
+    padding: 10px;
+    background-color: #3BB489;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 12px auto;
+}

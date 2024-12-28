@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #EDEDF0;
+}
+.goback{
+    position: fixed;
+    top: 20px;
+    left:40px ;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+.card{
+    width: 400px;
+    margin: 140px auto;
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 12px;
+    text-align: center;
+}
+h1{
+    margin: 0 auto 10px;
+}
+.hand{
+    margin: 20px auto 10px;
+}
+.paragraph{
+    margin-top: 0;
+    font-size: 16px;
+    color: #79797A;
+    padding:0 38px;
+}
+.input{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F3F3F5;
+    border-radius: 10px;
+}
+.logo-text{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 18px;
+}
+.input-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px auto 20px;
+}
+.right-arrow{
+    padding-right: 20px;
+}
+.not-selected{
+    background: #fff;
+}
+.last-paragraph{
+    font-size: 14px;
+    color: #79797A;
+    padding:0 38px;
+}
