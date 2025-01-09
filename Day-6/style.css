@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    background-color: #000000;
+}
+.header{
+    border-bottom:1px solid #1b1b1b;
+    margin-bottom: 5px;
+}
+.navbar{
+    width: 950px;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0px;
+}
+.log-sign{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.login-btn{
+    border: none;
+    padding: 8px 14px;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color: #0095F6;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+.signup{
+    margin: 0;
+    color: #0095F6;
+    cursor: pointer;
+    font-size: 14px;
+}
+.logo{
+    height: 27px;
+    cursor: pointer;
+}
+.login-btn:hover{
+    background-color: #1877F2;
+}
+.signup:hover{
+    color: #fff;
+}
+
+
+p{
+    color: #fff;
+    font-size: 20px;
+}
+.desc1-btn{
+    padding: 7px 16px;
+    border-radius: 8px;
+    background-color: #363636;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.desc1-btn:hover{
+    background-color: #262626;
+}
+.name-tick{
+    display: flex;
+    gap: 8px;
+}
+.desc1{
+    display: flex;
+    gap: 30px;
+}
+.user-img{
+    width: 47%;
+    border-radius: 50%;
+}
+.profile-container{
+    display: flex;
+    width: 950px;
+    margin: 20px auto;
+}
+.img-container{
+    text-align: center;
+    padding: 20px 0;
+    align-content: center;
+}
+.profile-desc{
+    flex-grow: 1;
+}
+.btn-container{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+.post-heading{
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.post-heading:hover{
+    color: #707070;
+}
+.desc2{
+    display: flex;
+    gap: 30px;
+}
+.desc3-username{
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+.thread-btn{
+    display: flex;
+    border: none;
+    background-color: #363636;
+    color: #fff;
+    padding: 7px 9px;
+    border-radius: 15px;
+    font-size: 12px;
+    text-transform: lowercase;
+    margin-top: 5px;
+    gap: 4px;
+}
+.thread{
+    margin-bottom: 4px;
+}
+.internet-company{
+    font-size: 14px;
+    color: #ababab;
+    margin:0;
+}
+.unfiltered—sometimes{
+    font-size: 14px;
+    margin: 0;
+}
+.address{
+    margin: 0;
+    font-size: 14px;
+    color: #ababab;
+}
+.link-anchor{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.story-container{
+    width: 950px;
+    margin: 40px auto;
+    display: flex;
+    gap: 40px;
+    padding-left:110px;
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #7CB1EB;
+}
+.circle-border{
+    border: 1px solid #494949;
+    border-radius: 50%;
+    padding: 4px;
+    width: 80px;
+    height: 80px;
+    align-content: center;
+    text-align: center;
+}
+.story-heading{
+    font-size: 12px;
+    text-align: center;
+}
+.second-color{
+    background-color: #4284F4;
+}
+.third-color{
+    background:#FE0000;
+}
+.fourth-color{
+    background: #3BB44B;
+}
+.cirle1{
+    cursor: pointer;
+}
+.post-container{
+    width: 950px;
+    margin: 40px auto;
+    border-top: 1px solid #1b1b1b;
+}
+.head-prt{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+span{
+    font-size: 12px;
+    color: #fff;
+}
+.posts{
+    padding-top:14px;
+    border-top: 1px solid #fff;
+    cursor: pointer;
+}
+.reel{
+    padding-top:14px;
+    cursor: pointer;
+}
+.tagged{
+    padding-top:14px;
+    cursor: pointer;
+}
+.post-part{
+    margin-top: 20px;
+}
+.post-img{
+    width: 315px;
+    height: 315px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
