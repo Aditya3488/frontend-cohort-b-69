@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header text-center">
+        <div class="flex justify-center">
+            <img src="./Netflix_Symbol_PMS.png" class="logo" alt="">
+        </div>
+        <h2 class="text-3xl text-neutral-300 font-bold">Unlimited movies, TV shows and more</h2>
+        <p class="text-lg text-neutral-400">Ready to watch? Enter your Movie Name to check if it's good choice!</p>
+        <div class="flex mt-3">
+            <input type="text" placeholder="search a movie..." id="MovieInput">
+            <button id="btn" onclick="Search()">Search Movie</button>
+        </div>
+    </div>
+
+    <div id="container" class="w-[740px] mx-auto mt-16">
+        <div class="flex gap-10 text-neutral-200">
+            <div>
+                <h1 id="title" class="font-bold text-3xl ">RRR</h1>
+                <p class="text-lg ">Genre :<span class="text-neutral-200" id="genre">N.T. Rama Rao Jr., Ram Charan, Ajay Devgn</span></p>
+                <p id="desc" class="mt-2 text-lg text-neutral-400">A fearless warrior on a perilous mission comes face to face with a steely cop serving British forces in this epic saga set in pre-independent India.</p>
+                <p class="text-lg mt-2">Actors :<span class="text-neutral-200" id="actor">N.T. Rama Rao Jr., Ram Charan, Ajay Devgn</span></p>
+                <p class="text-lg ">Directors :<span class="text-neutral-200" id="director">N.T. Rama Rao Jr., Ram Charan, Ajay Devgn</span></p>
+                <p class="text-lg ">Awards :<span class="text-neutral-200" id="awards">N.T. Rama Rao Jr., Ram Charan, Ajay Devgn</span></p>
+                <p class="text-lg ">Box office collection :<span class="text-neutral-200" id="collection">N.T. Rama Rao Jr., Ram Charan, Ajay Devgn</span></p>
+                <p class="text-lg ">Language :<span class="text-neutral-200" id="lang">N.T. Rama Rao Jr., Ram Charan, Ajay Devgn</span></p>
+                <p class="text-lg ">IMdB Rating :<span class="text-neutral-200" id="rating">N.T. Rama Rao Jr., Ram Charan, Ajay Devgn</span></p>
+
+            </div>
+            <div class="banner">
+                <img id="poster" class="rounded-xl" src="https://m.media-amazon.com/images/M/MV5BNWMwODYyMjQtMTczMi00NTQ1LWFkYjItMGJhMWRkY2E3NDAyXkEyXkFqcGc@._V1_SX300.jpg" alt="">
+                <p id="suggestion"></p>
+            </div>
+            
+        </div>
+    </div>
+    <h1 class="text-3xl font-bold my-36 text-center text-neutral-100" id="error"></h1>
+    
+    <script src="app.js"></script>
+</body>
+</html>
